@@ -1,10 +1,3 @@
-//
-//  ImageViewer_swift.h
-//  ImageViewer_swift
-//
-//  Created by manaes on 4/18/24.
-//
-
 #import <Foundation/Foundation.h>
 
 //! Project version number for ImageViewer_swift.
