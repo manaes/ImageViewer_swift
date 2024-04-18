@@ -8,35 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		5C88B0D22BD107CA00F3317E /* ImageViewer_swift.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C88B0D12BD107CA00F3317E /* ImageViewer_swift.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5C88B0E32BD107F100F3317E /* ImageCarouselViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C88B0D82BD107F000F3317E /* ImageCarouselViewController.swift */; };
-		5C88B0E42BD107F100F3317E /* UINavigationBar_Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C88B0D92BD107F000F3317E /* UINavigationBar_Extensions.swift */; };
-		5C88B0E52BD107F100F3317E /* UIView_Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C88B0DA2BD107F000F3317E /* UIView_Extensions.swift */; };
-		5C88B0E62BD107F100F3317E /* ImageViewerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C88B0DB2BD107F000F3317E /* ImageViewerController.swift */; };
-		5C88B0E72BD107F100F3317E /* ImageViewerTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C88B0DC2BD107F000F3317E /* ImageViewerTheme.swift */; };
-		5C88B0E82BD107F100F3317E /* SimpleImageDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C88B0DD2BD107F000F3317E /* SimpleImageDatasource.swift */; };
-		5C88B0E92BD107F100F3317E /* ImageViewerTransitionPresentationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C88B0DE2BD107F100F3317E /* ImageViewerTransitionPresentationManager.swift */; };
-		5C88B0EA2BD107F100F3317E /* UIImageView_Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C88B0DF2BD107F100F3317E /* UIImageView_Extensions.swift */; };
-		5C88B0EB2BD107F100F3317E /* ImageItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C88B0E02BD107F100F3317E /* ImageItem.swift */; };
-		5C88B0EC2BD107F100F3317E /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C88B0E12BD107F100F3317E /* ImageLoader.swift */; };
-		5C88B0ED2BD107F100F3317E /* ImageViewerOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C88B0E22BD107F100F3317E /* ImageViewerOption.swift */; };
 		5C88B0EF2BD1088C00F3317E /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C88B0EE2BD1088C00F3317E /* Media.xcassets */; };
+		5C88B0FB2BD1183800F3317E /* ImageItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C88B0F02BD1183700F3317E /* ImageItem.swift */; };
+		5C88B0FC2BD1183800F3317E /* UIView_Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C88B0F12BD1183700F3317E /* UIView_Extensions.swift */; };
+		5C88B0FD2BD1183800F3317E /* ImageViewerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C88B0F22BD1183700F3317E /* ImageViewerController.swift */; };
+		5C88B0FE2BD1183800F3317E /* ImageCarouselViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C88B0F32BD1183800F3317E /* ImageCarouselViewController.swift */; };
+		5C88B0FF2BD1183800F3317E /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C88B0F42BD1183800F3317E /* ImageLoader.swift */; };
+		5C88B1002BD1183800F3317E /* SimpleImageDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C88B0F52BD1183800F3317E /* SimpleImageDatasource.swift */; };
+		5C88B1012BD1183800F3317E /* ImageViewerOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C88B0F62BD1183800F3317E /* ImageViewerOption.swift */; };
+		5C88B1022BD1183800F3317E /* ImageViewerTransitionPresentationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C88B0F72BD1183800F3317E /* ImageViewerTransitionPresentationManager.swift */; };
+		5C88B1032BD1183800F3317E /* UIImageView_Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C88B0F82BD1183800F3317E /* UIImageView_Extensions.swift */; };
+		5C88B1042BD1183800F3317E /* UINavigationBar_Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C88B0F92BD1183800F3317E /* UINavigationBar_Extensions.swift */; };
+		5C88B1052BD1183800F3317E /* ImageViewerTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C88B0FA2BD1183800F3317E /* ImageViewerTheme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5C88B0CE2BD107CA00F3317E /* ImageViewer_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ImageViewer_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C88B0D12BD107CA00F3317E /* ImageViewer_swift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageViewer_swift.h; sourceTree = "<group>"; };
-		5C88B0D82BD107F000F3317E /* ImageCarouselViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageCarouselViewController.swift; path = "../../../@working/Cobak-iOS/Cobak/CommonView/ImageViewer_swift/ImageCarouselViewController.swift"; sourceTree = "<group>"; };
-		5C88B0D92BD107F000F3317E /* UINavigationBar_Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UINavigationBar_Extensions.swift; path = "../../../@working/Cobak-iOS/Cobak/CommonView/ImageViewer_swift/UINavigationBar_Extensions.swift"; sourceTree = "<group>"; };
-		5C88B0DA2BD107F000F3317E /* UIView_Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIView_Extensions.swift; path = "../../../@working/Cobak-iOS/Cobak/CommonView/ImageViewer_swift/UIView_Extensions.swift"; sourceTree = "<group>"; };
-		5C88B0DB2BD107F000F3317E /* ImageViewerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageViewerController.swift; path = "../../../@working/Cobak-iOS/Cobak/CommonView/ImageViewer_swift/ImageViewerController.swift"; sourceTree = "<group>"; };
-		5C88B0DC2BD107F000F3317E /* ImageViewerTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageViewerTheme.swift; path = "../../../@working/Cobak-iOS/Cobak/CommonView/ImageViewer_swift/ImageViewerTheme.swift"; sourceTree = "<group>"; };
-		5C88B0DD2BD107F000F3317E /* SimpleImageDatasource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SimpleImageDatasource.swift; path = "../../../@working/Cobak-iOS/Cobak/CommonView/ImageViewer_swift/SimpleImageDatasource.swift"; sourceTree = "<group>"; };
-		5C88B0DE2BD107F100F3317E /* ImageViewerTransitionPresentationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageViewerTransitionPresentationManager.swift; path = "../../../@working/Cobak-iOS/Cobak/CommonView/ImageViewer_swift/ImageViewerTransitionPresentationManager.swift"; sourceTree = "<group>"; };
-		5C88B0DF2BD107F100F3317E /* UIImageView_Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIImageView_Extensions.swift; path = "../../../@working/Cobak-iOS/Cobak/CommonView/ImageViewer_swift/UIImageView_Extensions.swift"; sourceTree = "<group>"; };
-		5C88B0E02BD107F100F3317E /* ImageItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageItem.swift; path = "../../../@working/Cobak-iOS/Cobak/CommonView/ImageViewer_swift/ImageItem.swift"; sourceTree = "<group>"; };
-		5C88B0E12BD107F100F3317E /* ImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageLoader.swift; path = "../../../@working/Cobak-iOS/Cobak/CommonView/ImageViewer_swift/ImageLoader.swift"; sourceTree = "<group>"; };
-		5C88B0E22BD107F100F3317E /* ImageViewerOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageViewerOption.swift; path = "../../../@working/Cobak-iOS/Cobak/CommonView/ImageViewer_swift/ImageViewerOption.swift"; sourceTree = "<group>"; };
 		5C88B0EE2BD1088C00F3317E /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		5C88B0F02BD1183700F3317E /* ImageItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageItem.swift; path = "../../../@working/Cobak-iOS/Carthage/Checkouts/ImageViewer_swift/ImageViewer_swift/ImageItem.swift"; sourceTree = "<group>"; };
+		5C88B0F12BD1183700F3317E /* UIView_Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIView_Extensions.swift; path = "../../../@working/Cobak-iOS/Carthage/Checkouts/ImageViewer_swift/ImageViewer_swift/UIView_Extensions.swift"; sourceTree = "<group>"; };
+		5C88B0F22BD1183700F3317E /* ImageViewerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageViewerController.swift; path = "../../../@working/Cobak-iOS/Carthage/Checkouts/ImageViewer_swift/ImageViewer_swift/ImageViewerController.swift"; sourceTree = "<group>"; };
+		5C88B0F32BD1183800F3317E /* ImageCarouselViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageCarouselViewController.swift; path = "../../../@working/Cobak-iOS/Carthage/Checkouts/ImageViewer_swift/ImageViewer_swift/ImageCarouselViewController.swift"; sourceTree = "<group>"; };
+		5C88B0F42BD1183800F3317E /* ImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageLoader.swift; path = "../../../@working/Cobak-iOS/Carthage/Checkouts/ImageViewer_swift/ImageViewer_swift/ImageLoader.swift"; sourceTree = "<group>"; };
+		5C88B0F52BD1183800F3317E /* SimpleImageDatasource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SimpleImageDatasource.swift; path = "../../../@working/Cobak-iOS/Carthage/Checkouts/ImageViewer_swift/ImageViewer_swift/SimpleImageDatasource.swift"; sourceTree = "<group>"; };
+		5C88B0F62BD1183800F3317E /* ImageViewerOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageViewerOption.swift; path = "../../../@working/Cobak-iOS/Carthage/Checkouts/ImageViewer_swift/ImageViewer_swift/ImageViewerOption.swift"; sourceTree = "<group>"; };
+		5C88B0F72BD1183800F3317E /* ImageViewerTransitionPresentationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageViewerTransitionPresentationManager.swift; path = "../../../@working/Cobak-iOS/Carthage/Checkouts/ImageViewer_swift/ImageViewer_swift/ImageViewerTransitionPresentationManager.swift"; sourceTree = "<group>"; };
+		5C88B0F82BD1183800F3317E /* UIImageView_Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIImageView_Extensions.swift; path = "../../../@working/Cobak-iOS/Carthage/Checkouts/ImageViewer_swift/ImageViewer_swift/UIImageView_Extensions.swift"; sourceTree = "<group>"; };
+		5C88B0F92BD1183800F3317E /* UINavigationBar_Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UINavigationBar_Extensions.swift; path = "../../../@working/Cobak-iOS/Carthage/Checkouts/ImageViewer_swift/ImageViewer_swift/UINavigationBar_Extensions.swift"; sourceTree = "<group>"; };
+		5C88B0FA2BD1183800F3317E /* ImageViewerTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageViewerTheme.swift; path = "../../../@working/Cobak-iOS/Carthage/Checkouts/ImageViewer_swift/ImageViewer_swift/ImageViewerTheme.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,19 +69,19 @@
 		5C88B0D02BD107CA00F3317E /* ImageViewer_swift */ = {
 			isa = PBXGroup;
 			children = (
+				5C88B0F32BD1183800F3317E /* ImageCarouselViewController.swift */,
+				5C88B0F02BD1183700F3317E /* ImageItem.swift */,
+				5C88B0F42BD1183800F3317E /* ImageLoader.swift */,
+				5C88B0F22BD1183700F3317E /* ImageViewerController.swift */,
+				5C88B0F62BD1183800F3317E /* ImageViewerOption.swift */,
+				5C88B0FA2BD1183800F3317E /* ImageViewerTheme.swift */,
+				5C88B0F72BD1183800F3317E /* ImageViewerTransitionPresentationManager.swift */,
+				5C88B0F52BD1183800F3317E /* SimpleImageDatasource.swift */,
+				5C88B0F82BD1183800F3317E /* UIImageView_Extensions.swift */,
+				5C88B0F92BD1183800F3317E /* UINavigationBar_Extensions.swift */,
+				5C88B0F12BD1183700F3317E /* UIView_Extensions.swift */,
 				5C88B0D12BD107CA00F3317E /* ImageViewer_swift.h */,
-				5C88B0D82BD107F000F3317E /* ImageCarouselViewController.swift */,
-				5C88B0E02BD107F100F3317E /* ImageItem.swift */,
-				5C88B0E12BD107F100F3317E /* ImageLoader.swift */,
-				5C88B0DB2BD107F000F3317E /* ImageViewerController.swift */,
-				5C88B0E22BD107F100F3317E /* ImageViewerOption.swift */,
-				5C88B0DC2BD107F000F3317E /* ImageViewerTheme.swift */,
 				5C88B0EE2BD1088C00F3317E /* Media.xcassets */,
-				5C88B0DE2BD107F100F3317E /* ImageViewerTransitionPresentationManager.swift */,
-				5C88B0DD2BD107F000F3317E /* SimpleImageDatasource.swift */,
-				5C88B0DF2BD107F100F3317E /* UIImageView_Extensions.swift */,
-				5C88B0D92BD107F000F3317E /* UINavigationBar_Extensions.swift */,
-				5C88B0DA2BD107F000F3317E /* UIView_Extensions.swift */,
 			);
 			path = ImageViewer_swift;
 			sourceTree = "<group>";
@@ -167,17 +167,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C88B0EB2BD107F100F3317E /* ImageItem.swift in Sources */,
-				5C88B0ED2BD107F100F3317E /* ImageViewerOption.swift in Sources */,
-				5C88B0E82BD107F100F3317E /* SimpleImageDatasource.swift in Sources */,
-				5C88B0EC2BD107F100F3317E /* ImageLoader.swift in Sources */,
-				5C88B0E52BD107F100F3317E /* UIView_Extensions.swift in Sources */,
-				5C88B0EA2BD107F100F3317E /* UIImageView_Extensions.swift in Sources */,
-				5C88B0E92BD107F100F3317E /* ImageViewerTransitionPresentationManager.swift in Sources */,
-				5C88B0E72BD107F100F3317E /* ImageViewerTheme.swift in Sources */,
-				5C88B0E42BD107F100F3317E /* UINavigationBar_Extensions.swift in Sources */,
-				5C88B0E32BD107F100F3317E /* ImageCarouselViewController.swift in Sources */,
-				5C88B0E62BD107F100F3317E /* ImageViewerController.swift in Sources */,
+				5C88B1022BD1183800F3317E /* ImageViewerTransitionPresentationManager.swift in Sources */,
+				5C88B1012BD1183800F3317E /* ImageViewerOption.swift in Sources */,
+				5C88B1042BD1183800F3317E /* UINavigationBar_Extensions.swift in Sources */,
+				5C88B1002BD1183800F3317E /* SimpleImageDatasource.swift in Sources */,
+				5C88B0FE2BD1183800F3317E /* ImageCarouselViewController.swift in Sources */,
+				5C88B0FC2BD1183800F3317E /* UIView_Extensions.swift in Sources */,
+				5C88B0FF2BD1183800F3317E /* ImageLoader.swift in Sources */,
+				5C88B0FB2BD1183800F3317E /* ImageItem.swift in Sources */,
+				5C88B0FD2BD1183800F3317E /* ImageViewerController.swift in Sources */,
+				5C88B1052BD1183800F3317E /* ImageViewerTheme.swift in Sources */,
+				5C88B1032BD1183800F3317E /* UIImageView_Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
