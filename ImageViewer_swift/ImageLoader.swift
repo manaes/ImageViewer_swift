@@ -28,8 +28,8 @@ public struct URLSessionImageLoader: ImageLoader {
   }
 }
 
-struct SDWebImageLoader: ImageLoader {
-  func loadImage(_ url: URL, placeholder: UIImage?, imageView: UIImageView, completion: @escaping (UIImage?) -> Void) {
+public struct SDWebImageLoader: ImageLoader {
+  public func loadImage(_ url: URL, placeholder: UIImage?, imageView: UIImageView, completion: @escaping (UIImage?) -> Void) {
     imageView.sd_setImage(
       with: url,
       placeholderImage: placeholder,
