@@ -1,15 +1,17 @@
-class SimpleImageDatasource: ImageDataSource {
+import Foundation
+
+public class SimpleImageDatasource: ImageDataSource {
   private(set) var imageItems: [ImageItem]
 
-  init(imageItems: [ImageItem]) {
+  public init(imageItems: [ImageItem]) {
     self.imageItems = imageItems
   }
 
-  func numberOfImages() -> Int {
+  public func numberOfImages() -> Int {
     imageItems.count
   }
 
-  func imageItem(at index: Int) -> ImageItem {
+  public func imageItem(at index: Int) -> ImageItem {
     imageItems[index]
   }
 }

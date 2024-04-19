@@ -1,8 +1,6 @@
 import Foundation
 import UIKit
-#if canImport(SDWebImage)
-  import SDWebImage
-#endif
+import SDWebImage
 
 public protocol ImageLoader {
   func loadImage(_ url: URL, placeholder: UIImage?, imageView: UIImageView, completion: @escaping (_ image: UIImage?) -> Void)
@@ -30,19 +28,17 @@ public struct URLSessionImageLoader: ImageLoader {
   }
 }
 
-#if canImport(SDWebImage)
-  struct SDWebImageLoader: ImageLoader {
-    func loadImage(_ url: URL, placeholder: UIImage?, imageView: UIImageView, completion: @escaping (UIImage?) -> Void) {
-      imageView.sd_setImage(
-        with: url,
-        placeholderImage: placeholder,
-        options: [],
-        progress: nil
-      ) { img, _, _, _ in
-        DispatchQueue.main.async {
-          completion(img)
-        }
+struct SDWebImageLoader: ImageLoader {
+  func loadImage(_ url: URL, placeholder: UIImage?, imageView: UIImageView, completion: @escaping (UIImage?) -> Void) {
+    imageView.sd_setImage(
+      with: url,
+      placeholderImage: placeholder,
+      options: [],
+      progress: nil
+    ) { img, _, _, _ in
+      DispatchQueue.main.async {
+        completion(img)
       }
     }
   }
-#endif
+}
