@@ -1,4 +1,5 @@
 import Foundation
+import UIKit
 #if canImport(SDWebImage)
   import SDWebImage
 #endif
