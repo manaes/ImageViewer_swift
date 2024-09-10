@@ -1,1 +1,1 @@
-github "SDWebImage/SDWebImage" "5.19.1"
+binary "https://github.com/SDWebImage/SDWebImage/raw/master/SDWebImage.json" "5.19.7"
